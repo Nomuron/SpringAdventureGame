@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  spring:
+    build: 
+      context: .
+    ports: 
+      - "6969:8080"
