@@ -11,7 +11,7 @@ pipeline {
       stage('maven build') {
         steps {
             withMaven(maven: 'Mejwen'){
-                sh 'mvn install'
+                sh 'mvn -f RPGAdventureGame'
             }
         }
       }
